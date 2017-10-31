@@ -1,0 +1,309 @@
+ /*background:#53ea93;*/
+/*color: #fed136;*/
+@font-face {
+  font-family: 'Monserat';
+  src: url('../fonts/Montserrat-Regular.otf');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Monserat Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+  font-style: normal;
+}
+
+body {
+	font-family:'Monserat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+  }
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box; /*общая ширина блока = width+padding+borderWidth*/
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	height: 700px;/*100vh;*/
+}
+
+.container {
+	width: 930px;/*75%;*/
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 41px;
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	/*display: block;*/
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles__first {
+	font-family:'Droid Serif', serif;
+	font-size: 38px;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 180px;
+  font-style: italic;
+}
+
+h1 {
+	font-family:'Monserat Bold', sans-serif;
+	font-size: 71px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+h3{
+	font-size: 18px;
+	margin-bottom: 0;
+}
+p{
+	font-family:'Droid Serif', serif;
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.button, .circle_button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.circle_button{
+	width: 140px;
+	border-radius: 50%;
+	margin-top: 0;
+}
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+.white{
+	color: #fff;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+.services, .works, .about, .team, .contact {
+	margin-top: 70px;
+}
+.container__50itemright, .container__50itemleft{
+	width: 50%;
+
+}
+.container__50itemright{
+	border-left:2px solid #f1f1f1;
+	float: right;
+	text-align:left;
+	margin-left: 50%;
+}
+.container__50itemleft{
+	border-right:2px solid #f1f1f1;
+	float: left;
+	text-align:right;
+	margin-right: 50%;
+}
+.container__50itemleft div{
+	float:right;
+	margin:0 -92px 80px 20px;
+
+}
+.container__50itemright div{
+	float:left;
+	margin:0 20px 80px  -92px;
+}
+.container__30item{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.container__25item	{
+	width: 25%;
+	float: left;
+	text-align:center;
+}
+.container_50item{
+	width: 48%;
+	float: left;
+	text-align:center;
+}
+
+
+.container__30item p{
+	margin-top: 20px;
+}
+
+.text_team {
+	margin-top: 20px;
+	padding: 0 15%;
+	text-align:center;
+	font-size: 16px;
+}
+.container__30item h4{
+	font-style: italic;
+	margin-top: 0;
+	font-weight: 300;
+
+}
+.container__30item:nth-child(3n), .container__34itemright, .container_50item:nth-child(2){
+	float: right;
+}
+
+.container__30item:nth-child(3n+2), .container__22item {
+	margin-left: 5%;
+}
+.container__34itemright{
+	text-align:left;
+}
+.copyright {
+	margin-top:10px;
+	margin-right: 130px;
+	float:left;
+}
+.brand{
+	padding: 60px 0;
+}
+.footer{
+	padding: 40px 0;
+}
+#services, #about, #portfolio, #team, #contact {
+	padding-bottom: 120px;
+}
+
+#portfolio, #team {
+	background: #f7f7f7;
+}
+#contact {
+	background: url(../img/last-bg.jpg) no-repeat center top / cover;
+}
+
+.vertical_line{
+	margin-top: -10px;
+	width: 50%;
+	height: 60px;
+	border-right:2px solid #f1f1f1;
+}
+
+
+.shadow {
+  -webkit-filter: drop-shadow(0 0 10px rgba(100,0,0,0.3));
+    filter: drop-shadow(0 0 10px rgba(0,0,100,0.3));
+   }
+/* круглые изображения*/
+.round {
+	  border-radius: 50%;
+}
+
+
+.formit input[type="text"] {
+    padding: 15px 22px;
+    height: 20px;
+    width: 90%;
+    border: 1px solid #bbbbbb;
+    margin: 0 20px 20px 0;
+    font-size: 75%;
+    color: #010f5f;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.formit textarea {
+	 width: 90%;
+	 height: 154px;
+	 resize: none;
+	 padding: 20px;
+	 font-size: 90%;
+	 border: 1px solid #bbbbbb;
+}
+.footer a:hover{
+	color: green;
+}
+.footer a{
+	color: #222222;;
+}
+.fa-radius  {
+	width: 30px;
+	height: 30px;
+	border: solid 0.1em;
+  padding: .2em;
+  /*margin-right: 10px;*/
+	border-radius: 50%;
+}
+
+/*footer .container > * {
+	border: 1px solid red;
+}
+<!-->
+<img src="img/logo.png" alt="Golden">
+<a href="#">Ссылка asdasdadasd</a>
+<span>Текст в span</span>
+<div>Текст внутри div</div>
+<p>Текст внутри p</p>
+<h4>Текст внутри h4</h4>
+<ul>
+	<li>item 1</li>
+	<li>item 2</li>
+	<li>item 3</li>
+	<li>item 4</li>
+	<li>item 5</li>
+	<li>item 6</li>
+</ul>
+</!-->
+
+
+<!--><a class="circle_button shadow" href="#">OUR<br>STORY<br>CONTINUES<br>...</a></!-->*/

@@ -1,0 +1,44 @@
+@media screen and (max-width:1024px) {
+  h1 {
+  	font-size: 51px;
+  }
+
+  .container {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 51px;
+  }
+
+  .container {
+  	width: 90%;
+  }
+
+  .item_rect {
+  	width: 100%;
+  	/*margin-right: 0;*/
+  }
+
+  .item_radial {
+    width: 100%;
+    border-right: 0;
+    text-align: left;
+  }
+
+  .lft {
+    border-left: inherit;
+    float: inherit;
+  }
+
+  .item_radial div {
+    margin: 0 20px;
+  }
+
+  .lft div {
+    margin: inherit;
+  }
+
+}

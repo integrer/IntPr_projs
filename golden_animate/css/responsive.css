@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+      h1 {
+    	font-size: 51px;
+    	color: red;
+    	}
+      .container{
+        width:90%;
+      }
+}
